@@ -1,4 +1,36 @@
 body {
     font-family: Karla, sans-serif;
     text-align: center;
+    background-color: #1C1C1C;
+    color: white;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+button {
+    background-color: #4ADF86;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 15px;
+}
+
+.highlight {
+    color: #4ADF86;
+}
+
+.site-header {
+    margin-bottom: 10em;
+}
+
+.wrapper {
+    background-color: #1F2937;
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
