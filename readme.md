@@ -4,7 +4,7 @@ A simple, customizable password generator built with HTML, CSS & JavaScript. Gen
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Generate Two Passwords**  
   Click a button to instantly create two independent passwords.
