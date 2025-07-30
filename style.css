@@ -17,6 +17,22 @@ button {
     padding: 9px 15px;
 }
 
+output {
+    display: block;
+    width: 100%;
+    background-color: #273549;
+    margin: 1em 0;
+    color: white;
+    min-height: 2em;
+    border-radius: 6px;
+}
+
+.output-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
 .highlight {
     color: #4ADF86;
 }

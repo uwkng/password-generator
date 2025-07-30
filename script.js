@@ -6,5 +6,5 @@ createPassword() {
     for (let i = 0; i < 12; i++) {
         password += characters[Math.floor(Math.random() * characters.length)]
     }
-    document.getElementById("passwordOutput1").textContent = password
+    document.getElementById("passwordOutput1").value = password
 }
