@@ -3,10 +3,13 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 
 function createPassword() {
-    let password = "";
+    let password1 = "";
+    let password2 = "";
     for (let i = 0; i < 12; i++) {
-        password += characters[Math.floor(Math.random() * characters.length)];
+        password1 += characters[Math.floor(Math.random() * characters.length)];
+        password2 += characters[Math.floor(Math.random() * characters.length)];
     }
-    document.getElementById("passwordOutput1").textContent = password;
+    document.getElementById("passwordOutput1").textContent = password1;
+    document.getElementById("passwordOutput2").textContent = password2;
 }
 
